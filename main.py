@@ -19,7 +19,7 @@ def main(page: ft.Page):
         def close_dialog(dialog):
             dialog.open = False
             page.update()
-
+    print('123')
     # 添加按钮
     page.add(ft.ElevatedButton("显示二维码", on_click=open_qr_dialog))
 
